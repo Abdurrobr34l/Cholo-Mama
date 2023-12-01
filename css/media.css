@@ -1,0 +1,301 @@
+/* EXTRA SMALL DEVICES (PORTRAIT PHONE, less than 576px) */
+@media (max-width: 575.98px) {
+  /* NAVIGATION-BAR STRT */
+  .navbar-nav li a {
+    padding-right: 0 !important;
+  }
+  .navbar-nav,
+  .navbar_btn {
+    text-align: center;
+  }
+  /* NAVIGATION-BAR END */
+
+  /* BANNER STRT */
+  header {
+    height: 300px;
+    background-size: cover;
+  }
+  .b_heading {
+    padding: 150px 40px 0 0;
+  }
+  .b_heading h1 {
+    font-size: 25px;
+  }
+  .b_heading p {
+    font-size: 16px;
+  }
+  #banner_btn {
+    float: inline-start;
+    padding-top: 20px;
+  }
+  /* BANNER END */
+
+  /* ABOUT US STRT */
+  .common_heading {
+    padding: 50px 0 20px;
+  }
+  .common_heading h1 {
+    font-size: 30px;
+  }
+  .abut_us_text p {
+    padding-top: 20px !important;
+    line-height: 1.2;
+  }
+  /* ABOUT US END */
+
+  /* SERVICE STRT */
+  .abut_us_text,
+  .abut_us_img {
+    margin-top: 20px !important;
+  }
+  /* SERVICE END */
+
+  /* PRICING STRT  */
+  .first_col h2,
+  h4 {
+    padding-top: 10px !important;
+  }
+  .pricing_hov {
+    margin-top: 20PX;
+  }
+  /* PRICING END */
+  
+  /* FOOTER STRT */
+  .first_footer_col,
+  .second_footer_col,
+  .third_footer_col {
+    margin: auto;
+    text-align: center;
+  }
+  .f_logo {
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .second_footer h3 {
+    padding-top: 40px !important;
+  }
+  .third_footer h1 {
+    padding-top: 40px !important;
+  }
+  .copy_right p {
+    font-size: 15px !important;
+  }
+  /* FOOTER END */
+
+}
+
+/* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* NAVIGATION-BAR STRT */
+  .navbar-nav li a {
+    padding-right: 0 !important;
+  }
+  .navbar-nav,
+  .navbar_btn {
+    text-align: center;
+  }
+  /* NAVIGATION-BAR END */
+
+  /* BANNER STRT */
+  header {
+    height: 500px;
+    background-size: contain;
+  }
+  .b_heading {
+    padding: 230px 40px 0 0;
+  }
+  .b_heading h1 {
+    font-size: 30px;
+  }
+  .b_heading p {
+    font-size: 20px;
+  }
+  #banner_btn {
+    float: inline-start;
+    padding-top: 20px;
+  }
+  /* BANNER END */
+
+  /* PRICING STRT  */
+  .first_col h2,
+  h4 {
+    padding-top: 10px !important;
+  }
+  .pricing_hov {
+    margin-top: 20PX;
+  }
+  /* PRICING END */
+  
+  /* FOOTER STRT */
+  .first_footer_col,
+  .second_footer_col,
+  .third_footer_col {
+    margin: auto;
+    text-align: center;
+  }
+  .f_logo {
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .second_footer h3 {
+    padding-top: 40px !important;
+  }
+  .third_footer h1 {
+    padding-top: 40px !important;
+  }
+  .copy_right p {
+    font-size: 15px !important;
+  }
+  /* FOOTER END */
+}
+
+/* MEDIUM DEVICES (TABLETS, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* NAVIGATION-BAR STRT */
+  .navbar-nav li a {
+    padding-right: 0 !important;
+  }
+  .navbar-nav,
+  .navbar_btn {
+    text-align: center;
+  }
+  /* NAVIGATION-BAR END */
+
+  /* BANNER STRT */
+  header {
+    height: 750px;
+    background-size: auto;
+  }
+  .b_heading {
+    padding: 100px 0 0 350px;
+  }
+  .b_heading h1 {
+    font-size: 40px;
+  }
+  .b_heading p {
+    font-size: 20px;
+  }
+  #banner_btn {
+    float: inline-start;
+    padding-top: 30px;
+  }
+  /* BANNER END */
+
+  /* PRICING STRT */
+  .pricing_hov {
+    margin-top: 20PX;
+  }
+  /* PRICING END */
+  
+  /* FOOTER STRT */
+  .third_footer_col {
+    margin: auto;
+  }
+  .copy_right p {
+    font-size: 15px !important;
+  }
+  
+  .third_footer h1 {
+    padding-top: 40px !important;
+  }
+  /* FOOTER END */
+}
+
+/* LARGE DEVICES (DESKTOPS, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* NAVIGATION-BAR STRT */
+  .navbar-nav li a {
+    padding-right: 20px !important;
+  }
+  /* NAVIGATION-BAR END */
+
+  /* BANNER STRT */
+  header {
+    height: 750px;
+  }
+  .b_heading {
+    padding: 100px 0 0 480px;
+  }
+  .b_heading h1 {
+    font-size: 50px;
+  }
+  .b_heading p {
+    font-size: 30px;
+  }
+  /* BANNER END */
+
+  /* ABOUT US STRT */
+  .common_heading {
+    padding: 30px 0 50px;
+  }
+  .abut_us_text h2 {
+    font-size: 48px;
+  }
+  .abut_us_text p {
+    padding-top: 30px !important;
+    line-height: 1.4;
+  }
+  /* ABOUT US END */
+  
+  /* FOOTER STRT */
+  .copy_right p {
+    font-size: 16px !important;
+  }
+  /* FOOTER END */
+}
+
+/* EXTRA LARGE DEVICES (LARGE DESKTOPS, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* BANNER STRT */
+  header {
+    height: 750px;
+  }
+  .b_heading {
+    padding: 130px 0 0 560px;
+  }
+  .b_heading h1 {
+    font-size: 50px;
+  }
+  .b_heading p {
+    font-size: 30px;
+  }
+  /* BANNER END */
+
+  /* ABOUT US STRT */
+  .common_heading {
+    padding: 30px 0 50px;
+  }
+  .abut_us_text h2 {
+    font-size: 57px;
+  }
+  .abut_us_text p {
+    padding-top: 30px !important;
+    line-height: 1.4;
+  }
+  /* ABOUT US END */
+
+  /* PRICING STRT */
+  .first_col h2,
+  h4 {
+    padding-top: 0 !important;
+  }
+  .pricing_sec_para {
+    padding: 20px 5px !important;
+  }
+  /* PRICING END */
+
+  /* FOOTER STRT */
+  .copy_right p {
+    font-size: 17px !important;
+  }
+  /* FOOTER END */
+}
+
+/* EXTRA EXTRA LARGE DEVICES (LARGE DESKTOPS, 1400px and up) */
+@media (min-width: 1400px) {
+  /* FOOTER STRT */
+  .copy_right p {
+    font-size: 18px !important;
+  }
+  /* FOOTER END */
+}
